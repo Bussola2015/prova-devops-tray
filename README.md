@@ -45,12 +45,12 @@ Etapa 4: Software utilizados.
   - PHP 7.0.33 (php -v)
   Servidor utlizado para teste:
   - Acesso ao servidor http://3.135.231.183/perguntas
-  - Acesso ao monitoramento do servidor http://3.135.231.183/server-status
+  - Acesso ao monitoramento do servidor com atualização a cada 5 segundos http://3.135.231.183/server-status/?refresh=5
   
 Epata 5: Criação do script de automação.
   Comandos:
     vim setup.sh
-    chmod 777 setup (permissão total rs)
+    chmod 777 setup (permissão total)
     ./setup or sh setup.sh
   
 Referências:
