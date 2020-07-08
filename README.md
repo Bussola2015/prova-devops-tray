@@ -57,5 +57,17 @@ $ chmod 777 setup #permissão total
 $ ./setup or sh setup.sh
 ```
 
-**Referências:**
-https://linuxize.com/post/how-to-install-php-on-ubuntu-18-04/ https://pt.stackoverflow.com/questions/27534/passando-vari%C3%A1veis-pela-url-utilizando-url-amig%C3%A1veis-via-get https://linuxhint.com/install_dig_debian_9/ https://httpd.apache.org/docs/current/mod/mod_status.html https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/ https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html https://serversmtp.com/smtp-error/ https://community.hostek.com/t/how-do-i-fix-outlook-error-550-no-such-user-here/472 https://registro.br/ https://tools.ietf.org/html/rfc822 https://www.zabbix.com/integrations/apache https://infotux.blogspot.com/2011/12/entendendo-os-registros-de-dns-aaaa-ns.html https://www.cyberciti.biz/faq/linux-unix-dig-command-examples-usage-syntax/
+**Referências:**  
+https://linuxize.com/post/how-to-install-php-on-ubuntu-18-04/  
+https://pt.stackoverflow.com/questions/27534/passando-vari%C3%A1veis-pela-url-utilizando-url-amig%C3%A1veis-via-get  
+https://linuxhint.com/install_dig_debian_9/  
+https://httpd.apache.org/docs/current/mod/mod_status.html  
+https://www.howtoforge.com/tutorial/install-git-and-github-on-ubuntu/  
+https://docs.aws.amazon.com/vpc/latest/userguide/VPC_SecurityGroups.html  
+https://serversmtp.com/smtp-error/  
+https://community.hostek.com/t/how-do-i-fix-outlook-error-550-no-such-user-here/472  
+https://registro.br/  
+https://tools.ietf.org/html/rfc822  
+https://www.zabbix.com/integrations/apache  
+https://infotux.blogspot.com/2011/12/entendendo-os-registros-de-dns-aaaa-ns.html  
+https://www.cyberciti.biz/faq/linux-unix-dig-command-examples-usage-syntax/
