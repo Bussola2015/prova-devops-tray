@@ -1,4 +1,4 @@
-# Configuração de servidor web
+# Configuração Servidor Web
 Contém os arquivos da avaliação da tray
 
 # Documentação
@@ -9,7 +9,8 @@ Configurar/verificar o arquivo */etc/ssh/sshd_config* e verificar linha #PermitR
 
 **Comandos:**
 ```sh
-$ adduser valdir 
+$ adduser valdir
+$ sudo su
 $ vim /etc/ssh/sshd_config 
 $ systemctl restart ssh
 ```
@@ -17,9 +18,9 @@ $ systemctl restart ssh
 ```sh
 $ apt-get update 
 $ apt-get upgrade 
-$ apt-get install apache2 php 
+$ apt-get install apache2 php libapache2-mod-php unzip git curl vim -y
 $ vim /etc/apache2/apache2.conf 
-$ cp /etc/apache2/sites-available/000-default.conf olatray.com.br.conf 
+$ cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/olatray.com.br.conf 
 $ vim /etc/apache2/sites-available/olatray.com.br.conf
 ```
 **Etapa 3:** Debbugar os códigos PHP do servidor Web.  
@@ -31,13 +32,12 @@ No arquivo *apache2.conf* foi realizada configuração para não permitir acesso
 ``` sh
 $ wget https://github.com/luishscosta/prova-devops/archive/master.zip
 $ unzip master.zip
-$ scp -r master/* /var/www/html/ 
+$ mkdir /var/www/html/perguntas
+$ cp -r master/* /var/www/html/ 
 $ chown -R root:www-data /var/www/html/* 
-$ chmod -R 755 root:www-data /var/www/html/*  
-$ tail -f /var/log/apache2/error.log 
-$ mkdir /var/www/html/perguntas 
+$ chmod -R 755 /var/www/html/*  
+$ tail -f /var/log/apache2/error.log  
 $ vim /var/www/html/perguntas/index.php 
-$ touch /var/www/html/index.php
 ```
 
 **Etapa 4:** Softwares e artefatos utilizados.
@@ -53,8 +53,8 @@ $ touch /var/www/html/index.php
 **Comandos:**
 ``` sh
 $ vim setup.sh 
-$ chmod 777 setup #permissão total
-$ ./setup or sh setup.sh
+$ chmod 777 setup.sh  #permissão total
+$ ./setup   #or sh setup.sh
 ```
 
 **Referências:**  
